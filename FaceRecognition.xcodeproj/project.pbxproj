@@ -11,9 +11,11 @@
 		5EDE155D2051851200C7C838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE155C2051851200C7C838 /* ViewController.swift */; };
 		5EDE15602051851200C7C838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE155E2051851200C7C838 /* Main.storyboard */; };
 		5EDE15622051851200C7C838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE15612051851200C7C838 /* Assets.xcassets */; };
-		5EDE15652051851200C7C838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE15632051851200C7C838 /* LaunchScreen.storyboard */; };
 		5EDE15702051851300C7C838 /* FaceRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE156F2051851300C7C838 /* FaceRecognitionTests.swift */; };
 		5EDE157B2051851300C7C838 /* FaceRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE157A2051851300C7C838 /* FaceRecognitionUITests.swift */; };
+		5EDE158B205186D400C7C838 /* komatsu3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE1588205186D300C7C838 /* komatsu3.jpg */; };
+		5EDE158C205186D400C7C838 /* komatsu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE1589205186D300C7C838 /* komatsu1.jpg */; };
+		5EDE158D205186D400C7C838 /* komatsu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE158A205186D400C7C838 /* komatsu2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		5EDE155C2051851200C7C838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EDE155F2051851200C7C838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EDE15612051851200C7C838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5EDE15642051851200C7C838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EDE15662051851200C7C838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EDE156B2051851300C7C838 /* FaceRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDE156F2051851300C7C838 /* FaceRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognitionTests.swift; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		5EDE15762051851300C7C838 /* FaceRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDE157A2051851300C7C838 /* FaceRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognitionUITests.swift; sourceTree = "<group>"; };
 		5EDE157C2051851300C7C838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDE1588205186D300C7C838 /* komatsu3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = komatsu3.jpg; sourceTree = "<group>"; };
+		5EDE1589205186D300C7C838 /* komatsu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = komatsu1.jpg; sourceTree = "<group>"; };
+		5EDE158A205186D400C7C838 /* komatsu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = komatsu2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,11 @@
 		5EDE15592051851200C7C838 /* FaceRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				5EDE158F2051870300C7C838 /* picture */,
 				5EDE155A2051851200C7C838 /* AppDelegate.swift */,
 				5EDE155C2051851200C7C838 /* ViewController.swift */,
 				5EDE155E2051851200C7C838 /* Main.storyboard */,
 				5EDE15612051851200C7C838 /* Assets.xcassets */,
-				5EDE15632051851200C7C838 /* LaunchScreen.storyboard */,
 				5EDE15662051851200C7C838 /* Info.plist */,
 			);
 			path = FaceRecognition;
@@ -123,6 +127,17 @@
 				5EDE157C2051851300C7C838 /* Info.plist */,
 			);
 			path = FaceRecognitionUITests;
+			sourceTree = "<group>";
+		};
+		5EDE158F2051870300C7C838 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				5EDE1589205186D300C7C838 /* komatsu1.jpg */,
+				5EDE158A205186D400C7C838 /* komatsu2.png */,
+				5EDE1588205186D300C7C838 /* komatsu3.jpg */,
+			);
+			name = picture;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EDE15652051851200C7C838 /* LaunchScreen.storyboard in Resources */,
 				5EDE15622051851200C7C838 /* Assets.xcassets in Resources */,
+				5EDE158B205186D400C7C838 /* komatsu3.jpg in Resources */,
+				5EDE158D205186D400C7C838 /* komatsu2.png in Resources */,
+				5EDE158C205186D400C7C838 /* komatsu1.jpg in Resources */,
 				5EDE15602051851200C7C838 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,14 +319,6 @@
 				5EDE155F2051851200C7C838 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5EDE15632051851200C7C838 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EDE15642051851200C7C838 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
